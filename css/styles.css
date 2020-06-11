@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("https://github.com/JetBrains/JetBrainsMono/raw/master/ttf/JetBrainsMono-Regular.ttf");
+}
+
+
+body {
+    background-color: #ACD1E3;
+}
+
+h1 {
+    font-family: JetBrains Mono;
+    color: #7C96A3;
+    text-align: center;
+}
+
+p {
+    font-family: JetBrains Mono;
+    font-size: 20px;
+    color: #4C5B63;
+}
+
+section {
+    text-align: center;
+    background-color: #D3E4F0;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-text {
+    margin: 10%;
+    top: 50%;
+}
